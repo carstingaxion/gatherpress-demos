@@ -79,7 +79,7 @@ add_filter('post_type_labels_gatherpress_venue', function ( object $labels ) : o
 		'not_found'                => 'No spots found',
 		'not_found_in_trash'       => 'No spots found in Trash',
 		'parent_item_colon'        => 'Parent Spot:',
-		'all_items'                => 'All Spots',
+		'all_items'                => 'Spots',
 		'archives'                 => 'Spot Archives',
 		'attributes'               => 'Spot Attributes',
 		'insert_into_item'         => 'Insert into spot',
@@ -101,6 +101,48 @@ add_filter('post_type_labels_gatherpress_venue', function ( object $labels ) : o
 		'item_updated'             => 'Spot updated.',
 		'item_link'                => 'Spot Link',
 		'item_link_description'    => 'A link to a spot.',
+	);
+
+	foreach ($_labels as $key => $value) {
+		$labels->{$key} = $value;
+	}
+
+	return $labels;
+} );
+
+/**
+* Filters the labels of a specific taxonomy.
+*
+* @param object $labels Object with labels for the taxonomy as member variables.
+* @return object Object with labels for the taxonomy as member variables.
+*/
+add_filter('taxonomy_labels_gatherpress_topic', function ( object $labels ) : object {
+
+	$_labels = array(
+		'name'                       => 'Types',
+		'singular_name'              => 'Type',
+		'search_items'               => 'Search Types',
+		'popular_items'              => 'Popular Types',
+		'all_items'                  => 'All Types',
+		'parent_item'                => 'Parent Type',
+		'parent_item_colon'          => 'Parent Type:',
+		'edit_item'                  => 'Edit Type',
+		'view_item'                  => 'View Type',
+		'update_item'                => 'Update Type',
+		'add_new_item'               => 'Add Type',
+		'new_item_name'              => 'New Type Name',
+		'separate_items_with_commas' => 'Separate types with commas',
+		'add_or_remove_items'        => 'Add or remove types',
+		'choose_from_most_used'      => 'Choose from the most used types',
+		'not_found'                  => 'No types found.',
+		'no_terms'                   => 'No types',
+		'filter_by_item'             => 'Filter by type',
+		'items_list_navigation'      => 'Types list navigation',
+		'items_list'                 => 'Types list',
+		'most_used'                  => 'Most Used'
+		'back_to_items'              => '&larr; Go to Types',
+		'item_link'                  => 'Type Link',
+		'item_link_description'      => 'A link to a type.',
 	);
 
 	foreach ($_labels as $key => $value) {
