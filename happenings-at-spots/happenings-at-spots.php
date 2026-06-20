@@ -143,6 +143,7 @@ add_filter('taxonomy_labels_gatherpress_topic', function ( object $labels ) : ob
 		'back_to_items'              => '&larr; Go to Types',
 		'item_link'                  => 'Type Link',
 		'item_link_description'      => 'A link to a type.',
+		'menu_name'                  => 'Types',
 	);
 
 	foreach ($_labels as $key => $value) {
