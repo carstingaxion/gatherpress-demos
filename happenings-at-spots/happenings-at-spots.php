@@ -139,7 +139,7 @@ add_filter('taxonomy_labels_gatherpress_topic', function ( object $labels ) : ob
 		'filter_by_item'             => 'Filter by type',
 		'items_list_navigation'      => 'Types list navigation',
 		'items_list'                 => 'Types list',
-		'most_used'                  => 'Most Used'
+		'most_used'                  => 'Most Used',
 		'back_to_items'              => '&larr; Go to Types',
 		'item_link'                  => 'Type Link',
 		'item_link_description'      => 'A link to a type.',
