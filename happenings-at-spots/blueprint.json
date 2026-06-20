@@ -1,6 +1,6 @@
 {
   "$schema": "https://playground.wordpress.net/blueprint-schema.json",
-  "landingPage": "https://playground.wordpress.net/events",
+  "landingPage": "/wp-admin/edit.php?post_type=gatherpress_event",
   "preferredVersions": {
     "php": "8.2",
     "wp": "latest"
