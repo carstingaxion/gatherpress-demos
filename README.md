@@ -4,7 +4,7 @@ Collection of [GatherPress](https://github.com/GatherPress/gatherpress) examples
 
 ## Examples
 
-1. [![Try            in WordPress Playground][happenings-badge]][happenings-blueprint]
+1. [![Try "Happenings at Spots" in WordPress Playground][happenings-badge]][happenings-blueprint]
 
     Showing that *GatherPress* can be used with relabeled post types, if that better fits your sites use-case.
 
