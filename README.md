@@ -7,6 +7,10 @@ Collection of [GatherPress](https://github.com/GatherPress/gatherpress) examples
 1. [![Try            in WordPress Playground][happenings-badge]][happenings-blueprint]
 
     Showing that *GatherPress* can be used with relabeled post types, if that better fits your sites use-case.
+
+    - https://github.com/GatherPress/gatherpress/issues/887
+    - gatherpress.org/blog/...
+
 2. "Productions & Seasons"
 
 
